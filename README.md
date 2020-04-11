@@ -2,7 +2,7 @@
 
 This demo showcases a simulation of call center where callers queue up to talk to available agents using OpenTok.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/opentok/opentok-video-call-center)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vieyrapy/ventaspy)
 
 ## OpenTok features used
 
