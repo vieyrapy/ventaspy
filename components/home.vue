@@ -2,7 +2,7 @@
   <div>
     <div class="uk-section uk-section-primary">
       <div class="uk-container uk-text-center">
-        <h1 class="uk-margin-large-top">OpenTok Call Center Demo</h1>
+        <h1 class="uk-margin-large-top">Ventas online</h1>
         <p class="uk-text-lead">This demo showcases a simulation of call center where callers queue up to talk to available agents.</p>
       </div>
     </div>
