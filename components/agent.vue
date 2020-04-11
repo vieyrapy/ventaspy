@@ -3,44 +3,44 @@
     <div class="uk-width-1-3 uk-width-1-4@l uk-height-viewport uk-panel-scrollable" id="agent-info-screen">
       <div uk-grid>
         <div>
-          <h1 class="uk-h3 uk-padding-small">Vende #{{ agentid }}</h1>
+          <h1 class="uk-h3 uk-padding-small">Vendedor #{{ agentid }}</h1>
         </div>
         <div>
-          <router-link to="/end" class="uk-button uk-button-danger uk-b">Exit</router-link>
+          <router-link to="/end" class="uk-button uk-button-primary uk-b uk-button-small " >Salir</router-link>
         </div>
       </div>
 
-      <p v-show="!callers.length" class="uk-text-lead">No callers connectedww</p>
+      <p v-show="!callers.length" class="uk-text-lead">No hay llamadas conectadas</p>
 
       <div v-for="caller in callers" :key="caller.callerId"
         class="uk-card uk-card-default uk-card-hover uk-card-small uk-margin-small-bottom"
         :class="{ 'uk-card-primary': caller.agentConnected, 'uk-card-secondary': caller.onHold }">
         <div class="uk-card-header">
-          <h3 class="uk-h4">Caller #{{ caller.callerId }}</h3>
+          <h3 class="uk-h4">Cliente #{{ caller.callerId }}</h3>
         </div>
         <div class="uk-card-body">
           <ul class="uk-list">
-            <li>Name: {{ caller.callerName || 'N/A' }}</li>
-            <li>Reason: {{ caller.callerReason || 'N/A' }}</li>
+            <li>Nombre: {{ caller.callerName || 'N/A' }}</li>
+            <li>Telefono: {{ caller.callerReason || 'N/A' }}</li>
           </ul>
-          <span v-if="caller.agentConnected" class="uk-card-badge uk-label uk-label-success">Live</span>
-          <span v-if="caller.onHold" class="uk-card-badge uk-label uk-label-warning">On Hold</span>
+          <span v-if="caller.agentConnected" class="uk-card-badge uk-label uk-label-success">En vivo</span>
+          <span v-if="caller.onHold" class="uk-card-badge uk-label uk-label-warning">En espera</span>
           <button
             @click="joinCall(caller.callerId)"
             v-if="!caller.agentConnected && !caller.onHold"
-            class="uk-button uk-button-primary">Accept</button>
+            class="uk-button uk-button-primary">Aceptar</button>
           <button
             @click="unholdCall(caller.callerId)"
             v-else-if="caller.onHold"
-            class="uk-button uk-button-default">Resume</button>
+            class="uk-button uk-button-default">Retomar llamada</button>
           <button
             @click="holdCall(caller.callerId)"
             v-else-if="caller.agentConnected && !caller.onHold"
-            class="uk-button uk-button-primary">Hold</button>
+            class="uk-button uk-button-primary">Pausar llamada</button>
           <button
             @click="endCall(caller.callerId)"
             v-if="caller.agentConnected && !caller.onHold"
-            class="uk-button uk-button-danger">End Call</button>
+            class="uk-button uk-button-danger">Finalizar llamada</button>
         </div>
       </div>
     </div>
@@ -198,14 +198,14 @@ function connectAgent() {
       fetchInterval = setInterval(this.fetchCallersList, 2500)
     })
     .catch(e => {
-      errorHandler('Unable to connect agent to service')
-      console.log('Unable to connect agent service', e)
+      errorHandler('El vendedor no se puede conectar')
+      console.log('El vendedor no se puede conectar', e)
     })
 }
 
 function disconnectAgent() {
   if (this.callerSession && this.callerSession.isConnected()) {
-    console.log('Disconnecting from session', this.callerSession.sessionId)
+    console.log('Desconectarse de la sesion', this.callerSession.sessionId)
     this.callerSession.disconnect()
   }
   if (fetchInterval) {
@@ -213,11 +213,11 @@ function disconnectAgent() {
   }
   axios.post(`/agent/${this.agentid}/disconnect`)
     .then(res => {
-      console.log('Agent disconnected')
+      console.log('Vendedor desconectado')
     })
     .catch(e => {
-      errorHandler('Error disconnecting agent')
-      console.log('Error disconnecting agent', e)
+      errorHandler('Error al desconectar vendedor')
+      console.log('Error al desconectar vendedor', e)
     })
 }
 
@@ -227,8 +227,8 @@ function fetchCallersList() {
       this.callers = res.data.callers
     })
     .catch(e => {
-      errorHandler('Unable to fetch agent data')
-      console.log('Unable to fetch agent data', e)
+      errorHandler('No se puede recuperar datos del vendedor')
+      console.log('No se puede recuperar datos del vendedor', e)
     })
 }
 
