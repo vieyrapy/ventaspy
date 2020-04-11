@@ -13,7 +13,7 @@
             <router-link to="/agent" class="uk-button uk-button-primary uk-button-large">Vendedor</router-link>
           </div>
           <div>
-            <router-link to="/caller" class="uk-button uk-button-primary uk-button-large">Llamar</router-link>
+            <router-link to="/caller" class="uk-button uk-button-primary uk-button-large video-camera">Llamar</router-link>
           </div>
         </div>
       </div>
