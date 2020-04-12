@@ -6,7 +6,7 @@
         :onHold="onHold" :caller="caller" @error="errorHandler" @endCall="endCallHandler">
       </self-view>
 
-      <div class="uk-card uk-card-default uk-card-small uk-margin-small-top">
+      <div class="uk-flex uk-card uk-card-default uk-card-small uk-margin-small-top">
         <div class="uk-card-header">
           <h2 class="uk-h4">Cliente info</h2>
         </div>
@@ -53,7 +53,7 @@
                       <label><input class="uk-radio" type="radio" name="audioVideo" value="audioVideo"
                         v-model="audioVideo">Audio/Video</label><br>
                       <label><input class="uk-radio" type="radio" name="audioVideo" value="audioOnly"
-                        v-model="audioVideo">Solo audioy</label>
+                        v-model="audioVideo">Solo audio</label>
                   </div>
                 </div>
               </div>
@@ -75,10 +75,10 @@
 
     <div v-if="caller" class="uk-width-expand uk-position-relative" :class="{ 'uk-background-secondary': onHold }">
       <p v-if="onHold" class="uk-position-center uk-width-1-1 uk-text-center uk-text-lead uk-light">
-        Agent has put you on hold&hellip;
+        Su llamada se ha puesto en espera&hellip;
       </p>
       <p v-if="!agentConnected && !onHold" class="uk-position-center uk-width-1-1 uk-text-center uk-text-lead">
-        Waiting for agent to join&hellip;
+        Aguarde, ya será atendido por un vendedor&hellip;
       </p>
 
       <ot-subscriber v-if="agentStream" @error="errorHandler" :stream="agentStream" :session="session" :opts="subscriberOpts"
