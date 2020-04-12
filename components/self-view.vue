@@ -3,17 +3,17 @@
     <div class="uk-card-header">
       <div uk-grid class="uk-flex-between">
         <div>
-          <h2 class="uk-card-title">Caller #{{ caller.callerId }}</h2>
+          <h2 class="uk-card-title">Cliente Nº{{ caller.callerId }}</h2>
         </div>
         <div>
           <div v-if="!agentConnected && !onHold" class="uk-label uk-label-default">
-            In queue
+            En fila
           </div>
           <div v-if="onHold" class="uk-label uk-label-warning">
-            On hold
+            En espera
           </div>
           <div v-if="agentConnected && !onHold" class="uk-label uk-label-success">
-            Live
+            En vivo
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
       </ot-publisher>
       <div v-show="isMuted"
         class="uk-badge uk-label-warning uk-position-top-right uk-margin-small-top uk-margin-small-right">
-        Muted
+        Silenciar
       </div>
     </div>
     <div v-if="otPublisher" class="uk-card-footer">
@@ -34,7 +34,7 @@
       </button>
       <button @click="endCall"
         class="uk-button uk-width-1-1 uk-margin-small-bottom uk-button-danger">
-        End call
+        Finalizar llamada
       </button>
     </div>
   </div>

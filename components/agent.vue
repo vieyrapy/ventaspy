@@ -1,14 +1,14 @@
 <template>
   <div class="route-agent uk-grid-collapse" uk-grid uk-height-viewport="expand: true">
     <div class="uk-width-1-3 uk-width-1-4@l uk-height-viewport uk-panel-scrollable" id="agent-info-screen">
-      <div uk-grid uk-flex-auto>
+      <div uk-grid>
         <div>
           <router-link to="/end" class="uk-button uk-button-primary uk-b uk-button-small " >Salir</router-link>
         </div>
         <div>
-          <h1 class="uk-h2 uk-flex">Vendedor Nº{{ agentid }}</h1>
+          <h1 class="uk-h2 uk-flex-auto">Vendedor Nº{{ agentid }}</h1>
         </div>
-          <p v-show="!callers.length" class="uk-text-lead">No hay llamadas conectadas</p>
+          <p v-show="!callers.length" class="uk-text-lead uk-flex-auto">No hay llamadas conectadas</p>
       </div>
 
 
