@@ -20,7 +20,7 @@
         class="uk-card uk-card-default uk-card-hover uk-card-small uk-margin-small-bottom"
         :class="{ 'uk-card-primary': caller.agentConnected, 'uk-card-secondary': caller.onHold }">
         <div class="uk-card-header">
-          <h3 class="uk-h4">Cliente #{{ caller.callerId }}</h3>
+          <h3 class="uk-h4">Cliente # {{ caller.callerId }}</h3>
         </div>
         <div class="uk-card-body">
           <ul class="uk-list">

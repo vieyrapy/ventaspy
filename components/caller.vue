@@ -13,7 +13,7 @@
         <div class="uk-card-body">
           <ul class="uk-list">
             <li>Nombre: {{ callerName || 'N/A' }}</li>
-            <li>Telefono: {{ callerReason || 'N/A'}}</li>
+            <li>Teléfono: {{ callerReason || 'N/A'}}</li>
           </ul>
         </div>
       </div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="uk-margin" uk-grid>
                   <div class="uk-width-1-3 uk-text-right uk-text-bold">
-                    <div class="uk-form-label">Opciones de llamada</div>
+                    <div class="uk-form-label">Opciones de llamadas</div>
                   </div>
                   <div class="uk-form-controls uk-form-controls-text uk-width-expand">
                       <label><input class="uk-radio" type="radio" name="audioVideo" value="audioVideo"
