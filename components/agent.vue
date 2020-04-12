@@ -1,18 +1,19 @@
 <template>
   <div class="route-agent uk-grid-collapse" uk-grid uk-height-viewport="expand: true">
-    <div class="uk-width-1-3 uk-width-1-4@l uk-height-viewport uk-panel-scrollable" id="agent-info-screen">
-      <div uk-grid>
+    <div class="uk-width-auto uk-padding uk-background-muted" id="agent-info-screen">
+      <div class="uk-flex uk-card uk-card-default uk-card-small uk-margin-small-top">
+        <div class="uk-card-header">
         <div>
-          <router-link to="/end" class="uk-button uk-button-primary uk-b uk-button-small " >Salir</router-link>
+          <router-link to="/end" class="uk-button uk-button-primary uk-b uk-button-large " >Salir</router-link>
         </div>
         <div>
-          <h1 class="uk-h2 uk-flex-auto uk-text-bold">Vendedor Nº{{ agentid }}</h1>
+          <h1 class="uk-h2 uk-flex-auto uk-text-bold">Agente {{ agentid }}</h1>
         </div>
+        </div>
+        <div>
           <p v-show="!callers.length" class="uk-text-lead uk-flex-auto">No hay llamadas conectadas</p>
+        </div>
       </div>
-
-
-
 
 
       <div v-for="caller in callers" :key="caller.callerId"
@@ -47,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="uk-width-expand uk-background-muted">
+    <div class="uk-width-expand ">
       <ot-subscriber v-if="callerSession && callerStream" @error="errorHandler" :stream="callerStream" :opts="otOpts"
         :session="callerSession" class="uk-width-1-1 uk-height-1-1">
       </ot-subscriber>
