@@ -3,15 +3,15 @@
     <div class="uk-width-auto uk-padding uk-background-muted" id="agent-info-screen">
       <div class="uk-flex uk-card uk-card-default uk-card-small uk-margin-small-top">
         <div class="uk-card-header">
-        <div>
-          <router-link to="/end" class="uk-button uk-button-primary uk-b uk-button-large " >Salir</router-link>
-        </div>
-        <div>
-          <h1 class="uk-h2 uk-flex-auto uk-text-bold">Agente {{ agentid }}</h1>
-        </div>
-        </div>
-        <div>
-          <p v-show="!callers.length" class="uk-text-lead uk-flex-auto">No hay llamadas conectadas</p>
+          <div>
+            <router-link to="/end" class="uk-button uk-button-primary uk-b uk-button-large " >Salir</router-link>
+          </div>
+          <div>
+            <h1 class="uk-h2 uk-flex-auto uk-text-bold">Agente # {{ agentid }}</h1>
+          </div>
+          <div>
+            <p v-show="!callers.length" class="uk-text-lead uk-flex-auto">No hay llamadas conectadas</p>
+          </div>
         </div>
       </div>
 
