@@ -6,7 +6,7 @@
           <router-link to="/end" class="uk-button uk-button-primary uk-b uk-button-small " >Salir</router-link>
         </div>
         <div>
-          <h1 class="uk-h2 uk-flex-auto">Vendedor Nº{{ agentid }}</h1>
+          <h1 class="uk-h2 uk-flex-auto uk-text-bold">Vendedor Nº{{ agentid }}</h1>
         </div>
           <p v-show="!callers.length" class="uk-text-lead uk-flex-auto">No hay llamadas conectadas</p>
       </div>

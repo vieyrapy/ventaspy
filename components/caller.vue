@@ -8,12 +8,12 @@
 
       <div class="uk-card uk-card-default uk-card-small uk-margin-small-top">
         <div class="uk-card-header">
-          <h2 class="uk-h4">Caller info</h2>
+          <h2 class="uk-h4">Cliente info</h2>
         </div>
         <div class="uk-card-body">
           <ul class="uk-list">
-            <li>Name: {{ callerName || 'N/A' }}</li>
-            <li>Reason: {{ callerReason || 'N/A'}}</li>
+            <li>Nombre: {{ callerName || 'N/A' }}</li>
+            <li>Telefono: {{ callerReason || 'N/A'}}</li>
           </ul>
         </div>
       </div>
@@ -25,13 +25,13 @@
           <div class="uk-card uk-card-default uk-width-3-4 uk-width-3-5@m uk-align-center">
             <form v-on:submit.prevent="onSubmit">
               <div class="uk-card-header">
-                <p class="uk-h3">Welcome to XYZ Corporation</p>
+                <p class="uk-h3">Bienvenido</p>
                 <p>Contact our audio/video call center</p>
               </div>
               <div class="uk-card-body">
                 <div class="uk-margin" uk-grid>
                   <div class="uk-width-1-3 uk-text-right uk-text-bold">
-                    <label for="caller-name">Your name</label>
+                    <label for="caller-name">Nombre</label>
                   </div>
                   <div class="uk-width-auto">
                     <input type="text" id="caller-name" v-model="callerName" autofocus ref='callerName'>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="uk-margin" uk-grid>
                   <div class="uk-width-1-3 uk-text-right uk-text-bold">
-                    <label for="caller-reason">Reason for call</label>
+                    <label for="caller-reason">Telefono</label>
                   </div>
                   <div class="uk-width-expand">
                     <input type="text" v-model="callerReason" id="caller-reason">
@@ -47,23 +47,23 @@
                 </div>
                 <div class="uk-margin" uk-grid>
                   <div class="uk-width-1-3 uk-text-right uk-text-bold">
-                    <div class="uk-form-label">Join via</div>
+                    <div class="uk-form-label">Opciones de llamada</div>
                   </div>
                   <div class="uk-form-controls uk-form-controls-text uk-width-expand">
                       <label><input class="uk-radio" type="radio" name="audioVideo" value="audioVideo"
                         v-model="audioVideo">Audio/Video</label><br>
                       <label><input class="uk-radio" type="radio" name="audioVideo" value="audioOnly"
-                        v-model="audioVideo">Audio only</label>
+                        v-model="audioVideo">Solo audioy</label>
                   </div>
                 </div>
               </div>
               <div class="uk-card-footer">
                 <div class="uk-margin" uk-grid>
                   <div class="uk-width-1-3">
-                    <router-link to="/" class="uk-button uk-button-secondary">Exit</router-link>
+                    <router-link to="/" class=" uk-button uk-button-secondary">salir</router-link>
                   </div>
                   <div class="uk-form-controls uk-form-controls-text uk-width-expand">
-                    <input type="submit" value="Place call" class="uk-button uk-button-primary uk-margin-remove-left">
+                    <input type="submit" value="Llamar" class="uk-button uk-button-primary">
                   </div>
                 </div>
               </div>
