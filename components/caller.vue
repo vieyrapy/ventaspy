@@ -26,7 +26,7 @@
             <form v-on:submit.prevent="onSubmit">
               <div class="uk-card-header">
                 <p class="uk-h3">Bienvenido</p>
-                <p>Contact our audio/video call center</p>
+                <p>Ingresa tus datos y en breve te atendemos!</p>
               </div>
               <div class="uk-card-body">
                 <div class="uk-margin" uk-grid>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="uk-margin" uk-grid>
                   <div class="uk-width-1-3 uk-text-right uk-text-bold">
-                    <label for="caller-reason">Telefono</label>
+                    <label for="caller-reason">Teléfono</label>
                   </div>
                   <div class="uk-width-expand">
                     <input type="text" v-model="callerReason" id="caller-reason">
@@ -51,19 +51,19 @@
                   </div>
                   <div class="uk-form-controls uk-form-controls-text uk-width-expand">
                       <label><input class="uk-radio" type="radio" name="audioVideo" value="audioVideo"
-                        v-model="audioVideo">Audio/Video</label><br>
+                        v-model="audioVideo">Videollamada</label><br>
                       <label><input class="uk-radio" type="radio" name="audioVideo" value="audioOnly"
-                        v-model="audioVideo">Solo audio</label>
+                        v-model="audioVideo">Llamada</label>
                   </div>
                 </div>
               </div>
               <div class="uk-card-footer">
                 <div class="uk-margin" uk-grid>
                   <div class="uk-width-1-3">
-                    <router-link to="/" class=" uk-button uk-button-secondary">salir</router-link>
+                    <router-link to="/" class=" uk-button uk-button-secondary">Cancelar</router-link>
                   </div>
                   <div class="uk-form-controls uk-form-controls-text uk-width-expand">
-                    <input type="submit" value="Llamar" class="uk-button uk-button-primary">
+                    <input type="submit" value="Llamar Ahora" class="uk-button uk-button-primary">
                   </div>
                 </div>
               </div>
