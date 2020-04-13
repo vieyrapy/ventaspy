@@ -46,7 +46,7 @@
     </div>
   </div>
 
-  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay:true">
 
     <ul class="uk-slideshow-items">
         <li>
