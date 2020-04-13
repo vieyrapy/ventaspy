@@ -13,8 +13,8 @@
         <div class="route-home uk-flex-center" uk-grid>
 
         <div class="uk-first-column">
+           <a href="/#/caller" class="uk-button uk-button-primary tm-button-primary uk-button-large tm-button-large uk-visible@s">Llamar Ahora!</a> 
           <a href="/#/caller"><span uk-icon="video-camera" width="113" height="100"></span></a>
-          <a href="/#/caller" class="uk-button uk-button-primary tm-button-primary uk-button-large tm-button-large uk-visible@s">Llamar Ahora!</a> 
         </div>
 
 
