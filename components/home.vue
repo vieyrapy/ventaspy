@@ -2,37 +2,33 @@
   <div>
     <div class="uk-section-primary tm-section-texture">
 
-      <div class="uk-width-1-">
+      <div class="uk-width-1-1">
       <div class="uk-container uk-text-center">
         <h1 class="uk-margin-large-top">Sistema de ventas por videollamadas</h1>
         <p class="uk-text-lead">Hoy mas que nunca estamos cerca tuyo. Nuestros vendedores están listos para atenderte</p>
-      </div>
+      
  
       <div class="container">
        
         <div class="route-home uk-flex-center" uk-grid>
-         
-          <a href="/#/caller" uk-icon="video-camera" class="uk-icon-large" width="168" height="155"></a>
 
-          <div hidden="true">
-            <router-link to="/agent" class="uk-button uk-button-primary uk-button-large">Agentes</router-link>
-          </div>
+        <div class="uk-first-column">
+          <a href="/#/caller"><span uk-icon="video-camera" width="113" height="100"></span></a>
+          <a href="/#/caller" class="uk-button uk-button-primary tm-button-primary uk-button-large tm-button-large uk-visible@s">Llamar Ahora!</a> 
+        </div>
 
-          <div>
-            <router-link 
-            to="/caller" 
-            class="uk-button uk-button-primary uk-button-large">
-            Llamar
-            </router-link>
-          </div>
+
+        <div hidden="true">
+          <router-link to="/agent" class="uk-button uk-button-primary uk-button-large">Agentes</router-link>
         </div>
       </div>
+     
 
-       <p class="uk-margin-medium uk-width-large uk-align-center">
+        <p class="uk-section-small uk-width-large uk-align-center">
            Sistema que emula un call center para atender a todos  tus clientes como si fuera que estan en tu local 
             <a href="https://www.paypal.me/MiljanAleksic" target="_blank">donation</a>. It means a lot :)
-          </p>
-  
+        </p>
+   </div>
 
 
 <div class="uk-section-small">
@@ -48,6 +44,7 @@
 
     </div>
     </div>
+  </div>
   </div>
 </template>
 
