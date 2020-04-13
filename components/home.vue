@@ -25,8 +25,7 @@
      
 
         <p class="uk-section-small uk-width-large uk-align-center">
-           Sistema que emula un call center para atender a todos  tus clientes como si fuera que estan en tu local 
-            <a href="https://www.paypal.me/MiljanAleksic" target="_blank">donation</a>. It means a lot :)
+           Sistema que emula un call center para atender a todos  tus clientes como si fuera que estan en tu local. Anímate a hacer un cambio en tu comercio y a vender diferente. 
         </p>
     </div>
 
