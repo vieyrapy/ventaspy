@@ -1,5 +1,26 @@
 <template>
   <div>
+    <div class="uk-position-relative ">
+
+      <nav class="uk-navbar uk-background-primary">
+      <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+          <li><a href="/#/caracteristicas">
+            <span class="uk-margin-small-left">  Basic home </span>
+          </a></li>
+
+
+        <li><a href="/#/caracteristicas">
+              <span class="uk-margin-small-left"> Características </span>
+          </a></li>
+
+        <li><a href="#">
+            <span class="uk-margin-small-left">Menu</span>
+          </a></li>
+      </div>
+  </nav>
+  </div>
+
 
       <div class="uk-width-1-1">
         <div class="uk-container uk-text-center">
@@ -8,7 +29,7 @@
               <hr class="uk-divider-icon">
               <p class="uk-text-lead">Es una aplicación simple construida para unir al cliente y vendedor desde una pantalla, simulando tener al cliente comprando en tu negocio. Generando así, un  mayor ambiente de confianza a la hora de comprar/vender online</p>
           </div>
-          <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-small" uk-grid>
+          <div class="uk-flex-auto uk-child-width-1-2 uk-child-width-1-2@s uk-grid-small" uk-grid>
             <div>
               <div class="uk-card-header uk-background-muted">
                 <h3 class="uk-margin-large-top uk-text-emphasis uk-text-bold">Clientes</h3>
