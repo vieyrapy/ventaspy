@@ -36,6 +36,9 @@
           <ul uk-margin="" class="uk-subnav tm-subnav uk-flex-inline uk-flex-center uk-margin-remove-bottom">
           <li class="uk-first-column">Versión 1.2.0</li> 
           <li>
+            <a href="/#/caracteristicas" class="uk-text-lowercase">Caracteristicas</a>
+          </li>
+          <li>
             <a href="https://twitter.com/vieyrahvo" class="uk-text-lowercase"><span uk-icon="twitter" class="uk-margin-small-right uk-icon"></span>@vieyrapy</a>
           </li>
           </ul>
