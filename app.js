@@ -5,7 +5,7 @@ import VueRouter from 'vue-router'
 import Home from './components/home'
 import Home_2 from './components/home_2'
 import Caracteristicas from './components/caracteristicas'
-import Agent from './components/agent'
+import Agentesventaspy from './components/agentesventaspy'
 import Caller from './components/caller'
 import EndCall from './components/end-call'
 
@@ -16,7 +16,7 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/home_2', component: Home_2 },
     { path: '/caracteristicas', component: Caracteristicas },
-    { path: '/agent', component: Agent },
+    { path: '/agentesventaspy', component: Agentesventaspy },
     { path: '/caller', component: Caller },
     { path: '/end', component: EndCall }
   ]
