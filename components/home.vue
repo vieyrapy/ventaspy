@@ -35,7 +35,13 @@
           <ul uk-margin="" class="uk-subnav tm-subnav uk-flex-inline uk-flex-center uk-margin-remove-bottom">
           <li class="uk-first-column">Versión 1.2.0</li> 
           <li>
-            <a href="/#/caracteristicas" class="uk-text-lowercase">Caracteristicas</a>
+            <a href="/#/caracteristicas" class="uk-text-lowercase">Basic home</a>
+          </li>
+          <li>
+            <a href="/#/caracteristicas" class="uk-text-lowercase">Características</a>
+          </li>
+          <li>
+            <a href="https://instagram.com/vieyrapy" class="uk-text-lowercase"><span uk-icon="instagram" class="uk-margin-small-right uk-icon"></span>@vieyrapy</a>
           </li>
           <li>
             <a href="https://twitter.com/vieyrahvo" class="uk-text-lowercase"><span uk-icon="twitter" class="uk-margin-small-right uk-icon"></span>@vieyrapy</a>
