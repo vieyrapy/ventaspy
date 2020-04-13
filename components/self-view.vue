@@ -3,7 +3,7 @@
     <div class="uk-card-header">
       <div uk-grid class="uk-flex-between">
         <div>
-          <h2 class="uk-card-title">Cliente Nº{{ caller.callerId }}</h2>
+          <h2 class="uk-card-title">Cliente #{{ caller.callerId }}</h2>
         </div>
         <div>
           <div v-if="!agentConnected && !onHold" class="uk-label uk-label-default">
