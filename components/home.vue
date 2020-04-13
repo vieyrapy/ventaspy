@@ -4,7 +4,7 @@
 
       <div class="uk-width-1-1">
       <div class="uk-container uk-text-center">
-        <h1 class="uk-margin-large-top">Sistema de ventas por videollamadas</h1>
+        <h1 class="uk-margin-large-top uk-text-bold">Sistema de ventas por videollamadas</h1>
         <p class="uk-text-lead">Hoy mas que nunca estamos cerca tuyo. Nuestros vendedores están listos para atenderte</p>
       
  
@@ -13,8 +13,8 @@
         <div class="route-home uk-flex-center" uk-grid>
 
         <div class="uk-first-column">
-           <a href="/#/caller" class="uk-button uk-button-primary tm-button-primary uk-button-large tm-button-large uk-visible@s">Llamar Ahora!</a> 
-          <a href="/#/caller"><span uk-icon="video-camera" width="113" height="100"></span></a>
+          <a href="/#/caller"><span class="uk-visible@s" uk-icon="video-camera" width="113" height="100" ></span></a>
+             <a href="/#/caller" class="uk-button uk-button-primary tm-button-primary uk-button-large tm-button-large ">Llamar Ahora!</a>
         </div>
 
 
