@@ -2,30 +2,21 @@
   <div>
     <div class="uk-position-relative uk-container-expand">
 
-      <nav class="uk-navbar uk-background-primary uk-light">
-
-          <div class="uk-navbar-nav uk-subnav uk-align-left">
-              <img src="assets/images/vieyra.jpg" alt="" uk-cover>
-          </div>
+      <nav class="uk-background-primary uk-light" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+            <li><img src="assets/images/vieyra.jpg" alt="" uk-cover></li>
+          </ul>
+        </div>
 
           <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
 
-              <ul class="uk-navbar-nav uk-subnav">
-                <li class="uk-text-center"><a class="uk-text-center" href="/">
-                     Inicio
-                  </a></li>
-
-
-                <li class="uk-text-center"><a href="/#/caracteristicas">
-                       Características
-                  </a></li>
-
-                <li class="uk-text-center"><a href="/#/caller">
-                    Llamar
-                  </a></li>
+                <li><a class="uk-text-center" href="/"><span class="uk-margin-small-right"></span>Inicio</a></li>
+                <li><a href="/#/caracteristicas"><span class="uk-margin-small-right"></span>Características</a></li>
+                <li><a href="/#/caller"><span class="uk-margin-small-right"></span> Llamar</a></li>
               </ul>
           </div>
-
         </nav>
   </div>
 
