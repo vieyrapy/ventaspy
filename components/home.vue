@@ -8,7 +8,7 @@
         <h1 class="uk-margin-large-top uk-text-bold">Sistema de ventas por videollamadas</h1>
         <p class="uk-text-lead">Que la atención cara a cara nunca cambie.
         Hoy más que nunca, tus clientes te quieren cerca. </p>
-        <p class="uk-text-lead"> #comprandesdecasa #mequedoencasapy </p>
+        <p class="uk-text-lead"> #comprandesdecasa #quedatencasapy </p>
       
  
       <div class="container">

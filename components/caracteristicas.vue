@@ -1,23 +1,26 @@
 <template>
   <div>
     <div class="uk-position-relative uk-container-expand">
-
-      <nav class="uk-background-primary uk-light" uk-navbar>
-        <div class="uk-navbar-left">
-          <ul class="uk-navbar-nav">
-            <li><img src="assets/images/vieyra.jpg" alt="" uk-cover></li>
-          </ul>
+<div uk-sticky="media: 960" class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-fixed" style="position: fixed; top: 0px; width: 1047px;">
+  <div class="uk-container uk-container-expand">
+    <nav class="uk-navbar">
+      <div class="uk-navbar-left">
+          <a href="/" class="uk-navbar-item uk-logo router-link-exact-active uk-active">
+          <img src="assets/images/vieyra.svg"  width="30" height="30" class="uk-margin-small-right uk-svg">
+            VIEYRAPY
+          </a>
         </div>
-
-          <div class="uk-navbar-right">
-              <ul class="uk-navbar-nav">
-
-                <li><a class="uk-text-center" href="/"><span class="uk-margin-small-right"></span>Inicio</a></li>
-                <li><a href="/#/caracteristicas"><span class="uk-margin-small-right"></span>Características</a></li>
-                <li><a href="/#/caller"><span class="uk-margin-small-right"></span> Llamar</a></li>
-              </ul>
+                <div class="uk-navbar-right">
+                  <ul class="uk-navbar-nav uk-visible@m">
+                    <li class=""><a href="/pro">Pro</a></li> 
+                    <li><a href="docs/introduction">Documentación</a></li> 
+                    <li class=""><a href="/changelog">Registro de cambios</a></li>
+                  </ul> 
+                  <div class="uk-navbar-item uk-visible@m"><a href="/download" class="uk-button uk-button-default tm-button-default uk-icon">Descargar <canvas uk-icon="download" width="20" height="20" class="uk-icon" hidden="true"></canvas><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="download"><polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline><rect x="3" y="17" width="13" height="1"></rect><line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line></svg></a></div> <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
+                </div>
+              </nav>
+            </div>
           </div>
-        </nav>
   </div>
 
 
