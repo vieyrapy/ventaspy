@@ -12,11 +12,11 @@
         </div>
                 <div class="uk-navbar-right">
                   <ul class="uk-navbar-nav uk-visible@m">
-                    <li class=""><a href="/pro">Pro</a></li> 
-                    <li><a href="docs/introduction">Documentación</a></li> 
-                    <li class=""><a href="/changelog">Registro de cambios</a></li>
-                  </ul> 
-                  <div class="uk-navbar-item uk-visible@m"><a href="/download" class="uk-button uk-button-default tm-button-default uk-icon">Descargar <canvas uk-icon="download" width="20" height="20" class="uk-icon" hidden="true"></canvas><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="download"><polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline><rect x="3" y="17" width="13" height="1"></rect><line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line></svg></a></div> <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
+                    <li class=""><a href="/">Inicio</a></li>
+                    <li><a href="/#/agentesventaspy">Vendedores</a></li>
+                    <li class=""><a href="/#/caller">Llamar</a></li>
+                  </ul>
+                  <div class="uk-navbar-item uk-visible@m"><a href= "https://web.whatsapp.com/" class="uk-button uk-button-default tm-button-default uk-icon">Solicitá Ya<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="download"><polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline><rect x="3" y="17" width="13" height="1"></rect><line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line></svg></a></div> <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
                 </div>
               </nav>
             </div>
