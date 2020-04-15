@@ -12,7 +12,7 @@
         </div>
                 <div class="uk-navbar-right">
                   <ul class="uk-navbar-nav uk-visible@m">
-                    <li class=""><a href="/">Inicio</a></li>
+                    <li class=""><a href="/">Versión Basica</a></li>
                     <li><a href="/#/agentesventaspy">Vendedores</a></li>
                     <li class=""><a href="/#/caller">Llamar</a></li>
                   </ul>
