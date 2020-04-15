@@ -8,7 +8,7 @@
         <h1 class="uk-margin-large-top uk-text-bold">Sistema de ventas por videollamadas</h1>
         <p class="uk-text-lead">Que la atención cara a cara nunca cambie.
         Hoy más que nunca, tus clientes te quieren cerca. </p>
-        <p class="uk-text-lead"> #comprendesdecasa </p>
+        <p class="uk-text-lead"> #comprandesdecasa #mequedoencasapy </p>
       
  
       <div class="container">
@@ -26,7 +26,7 @@
       </div>
 
         <p class="uk-section-small uk-width-large uk-align-center">
-           Sistema que emula un call center para mejorar la atención de tus clientes.  Anímate a hacer un cambio en tu comercio y empezar a vender como siempre como si fuera que estan en tu local. 
+           Sistema que emula un call center para mejorar la atención de tus clientes.  Anímate a hacer un cambio en tu comercio y empezar a atender diferente, y aumentar tus ventas. 
         </p>
 
     </div>
