@@ -118,8 +118,8 @@ function otConnect (apiKey, sessionId, token) {
       errorHandler(err)
       return
     }
-    successHandler('Connected to OpenTok')
-    console.log('Connected to session', sessionId)
+    successHandler('Conectado ahora')
+    console.log('Conectado a la sesión', sessionId)
   })
   this.session.on('signal:agentConnected', (data) => {
     console.log('Agentconnected', data)
@@ -185,7 +185,7 @@ export default {
 
   beforeDestroy () {
     if (this.session && this.session.isConnected()) {
-      console.log('Disconnecting from session', this.session.sessionId)
+      console.log('Desconectarse de la sesión', this.session.sessionId)
       this.session.disconnect()
     }
   },
