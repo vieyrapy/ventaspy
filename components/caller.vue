@@ -62,6 +62,7 @@
                   <div class="uk-width-1-3">
                     <router-link to="/" class=" uk-button uk-button-secondary">Cancelar</router-link>
                   </div>
+                  <div></div>
                   <div class="uk-form-controls uk-form-controls-text uk-width-expand">
                     <input type="submit" value="Llamar Ahora" class="uk-button uk-button-primary">
                   </div>
