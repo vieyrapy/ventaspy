@@ -108,8 +108,8 @@
                 </ul>
               </div>
             </div>
-          <p class="uk-text-lead">Hoy más que nunca estamos cerca tuyo</p>
-          <p class="uk-text-lead"> Nuestros vendedores están listos para atenderte</p>
+          <p class="uk-text-lead">Hoy más que nunca estamos cerca tuyo<br>
+          Nuestros vendedores están listos para atenderte</p>
       </div>
 
       <div class="container">
