@@ -41,7 +41,7 @@
                   <div class="uk-width-1-3 uk-text-right uk-text-bold">
                     <label for="caller-reason">Teléfono</label>
                   </div>
-                  <div class="uk-width-expand">
+                  <div class="uk-width-auto">
                     <input type="text" v-model="callerReason" id="caller-reason">
                   </div>
                 </div>
@@ -63,7 +63,7 @@
                     <router-link to="/" class=" uk-button uk-button-secondary">Cancelar</router-link>
                   </div>
                   <div></div>
-                  <div class="uk-form-controls uk-form-controls-text uk-width-expand">
+                  <div class="uk-form-controls uk-form-controls-text uk-width-auto">
                     <input type="submit" value="Llamar Ahora" class="uk-button uk-button-primary">
                   </div>
                 </div>
