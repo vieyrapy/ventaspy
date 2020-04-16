@@ -13,7 +13,6 @@
                             <div class="uk-navbar-right">
                               <ul class="uk-navbar-nav uk-visible@m">
                                 <li class=""><a href="/">Versión Basica</a></li>
-                                <li><a href="/#/agentesventaspy">Vendedores</a></li>
                                 <li class=""><a href="/#/caller">Llamar</a></li>
                               </ul>
                               <div class="uk-navbar-item uk-visible@m"><a href= "https://web.whatsapp.com/" class="uk-button uk-button-default tm-button-default uk-icon">Solicitá Ya<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="download"><polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline><rect x="3" y="17" width="13" height="1"></rect><line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line></svg></a>
@@ -45,10 +44,6 @@
               <font style="vertical-align: inherit;">Versión Basica</font>
             </font></a>
           </li>
-          <li><a href="/#/agentesventaspy"><font style="vertical-align: inherit;">
-            <font style="vertical-align: inherit;">Vendedores</font>
-          </font></a>
-        </li>
         <li>
           <a href="/#/caller"><font style="vertical-align: inherit;">
             <font style="vertical-align: inherit;">Llamar</font>
@@ -79,6 +74,7 @@
               <p class="uk-text-lead">Es una aplicación simple construida para unir al cliente y vendedor desde una pantalla, simulando tener al cliente comprando en tu negocio. Generando así, un  mayor ambiente de confianza a la hora de comprar/vender online</p>
           </div>
           <div class="uk-flex-middle" uk-grid>
+
               <div class="uk-card-header uk-background-muted uk-width-1-2@m uk-flex-first">
                 <h3 class="uk-margin-large-top uk-text-emphasis uk-text-bold">Clientes</h3>
 
@@ -90,7 +86,7 @@
                     <li class="uk-first-column uk-text-justify">Una vez que se han unido las personas que llaman, esperan hasta que un vendedor les atienda</li>
                   </ul>
               </div>
-              
+
 
               <div class="uk-card-header uk-background-muted uk-width-1-2@m">
                 <h3 class="uk-margin-large-top uk-text-emphasis uk-text-bold">Vendedores</h3>
