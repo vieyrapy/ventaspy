@@ -10,7 +10,7 @@
         Hoy más que nunca, tus clientes te quieren cerca. </p>
         <p class="uk-text-lead"> #compradesdecasa #quedatencasapy </p>
       
- 
+
       <div class="container">
        
         <div class="route-home uk-flex-center" uk-grid>
@@ -26,7 +26,7 @@
       </div>
 
         <p class="uk-section-small uk-width-large uk-align-center">
-           Sistema que emula un call center para mejorar la atención de tus clientes.  Anímate a hacer un cambio en tu comercio y empezar a atender diferente, y aumentar tus ventas. 
+           Sistema que emula un call center para mejorar la atención al cliente.  Anímate a hacer un cambio en tu comercio y empezar a atender diferente, y aumentar tus ventas. 
         </p>
 
     </div>
