@@ -78,29 +78,24 @@
               <hr class="uk-divider-icon">
               <p class="uk-text-lead">Es una aplicación simple construida para unir al cliente y vendedor desde una pantalla, simulando tener al cliente comprando en tu negocio. Generando así, un  mayor ambiente de confianza a la hora de comprar/vender online</p>
           </div>
-          <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-small" uk-grid>
-            <div>
-              <ul>
-              <div class="uk-card-header uk-background-muted">
+          <div class="uk-flex-middle" uk-grid>
+              <div class="uk-card-header uk-background-muted uk-width-1-2@m uk-flex-first">
                 <h3 class="uk-margin-large-top uk-text-emphasis uk-text-bold">Clientes</h3>
 
-
+                  <ul>
                     <li class="uk-first-column uk-text-justify">Las personas que llaman deben ingresar su nombre y número de teléfono para comunicarse con un vendedor. Además podrá seleccionar si desea comunicarse usando videollamadas o solo audio</li>
 
                     <li class="uk-first-column uk-text-justify">Las personas que llaman pueden decidir salir de la llamada en cualquier momento</li>
 
                     <li class="uk-first-column uk-text-justify">Una vez que se han unido las personas que llaman, esperan hasta que un vendedor les atienda</li>
-
-
+                  </ul>
               </div>
-            </ul>
-            </div>
-            <div>
-              <ul>
-              <div class="uk-card-header uk-background-muted">
+              
+
+              <div class="uk-card-header uk-background-muted uk-width-1-2@m">
                 <h3 class="uk-margin-large-top uk-text-emphasis uk-text-bold">Vendedores</h3>
 
-
+                  <ul>
                     <li class="uk-first-column uk-text-justify">A cada vendedor se le pueden asignar múltiples llamadas. La asignación se realiza utilizando la estrategia de menos conexiones: cuando una nueva persona se une, la persona que llama se asigna al vendedor con el menor número de personas asignadas</li>
 
                     <li class="uk-first-column uk-text-justify">Cuando se asigna una llamada al vendedor, se actualiza la lista de llamadas del agente</li>
@@ -114,13 +109,9 @@
                     <li class="uk-first-column uk-text-justify">El vendedor puede finalizar la llamada a la que está conectado. Esto hará que la persona que llama también salga</li>
 
                     <li class="uk-first-column uk-text-justify">Si el vendedor cambia a otra persona que llama, la llamada actual se pone en espera</li>
-
-
+                </ul>
               </div>
-              </ul>
             </div>
-
-          </div>
           <p class="uk-text-lead">Hoy más que nunca estamos cerca tuyo</p>
           <p class="uk-text-lead"> Nuestros vendedores están listos para atenderte</p>
       </div>
