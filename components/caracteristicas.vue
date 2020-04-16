@@ -1,28 +1,70 @@
 <template>
   <div>
     <div class="uk-position-relative uk-container-expand">
-<div uk-sticky="media: 960" class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-fixed" style="position: fixed; top: 0px; width: 1047px;">
-  <div class="uk-container uk-container-expand">
-    <nav class="uk-navbar">
-      <div class="uk-navbar-left">
-          <a href="/" class="uk-navbar-item uk-logo router-link-exact-active uk-active">
-          <img src="assets/images/vieyra.svg"  width="30" height="30" class="uk-margin-small-right uk-svg">
-            VIEYRAPY
-          </a>
-        </div>
-                <div class="uk-navbar-right">
-                  <ul class="uk-navbar-nav uk-visible@m">
-                    <li class=""><a href="/">Versión Basica</a></li>
-                    <li><a href="/#/agentesventaspy">Vendedores</a></li>
-                    <li class=""><a href="/#/caller">Llamar</a></li>
-                  </ul>
-                  <div class="uk-navbar-item uk-visible@m"><a href= "https://web.whatsapp.com/" class="uk-button uk-button-default tm-button-default uk-icon">Solicitá Ya<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="download"><polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline><rect x="3" y="17" width="13" height="1"></rect><line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line></svg></a></div> <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
-                </div>
-              </nav>
-            </div>
-          </div>
-  </div>
+            <div uk-sticky="media: 960" class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-fixed" style="position: fixed; top: 0px; width: 1047px;">
+              <div class="uk-container uk-container-expand">
+                <nav class="uk-navbar">
+                  <div class="uk-navbar-left">
+                      <a href="/" class="uk-navbar-item uk-logo router-link-exact-active uk-active">
+                      <img src="assets/images/vieyra.svg"  width="30" height="30" class="uk-margin-small-right uk-svg">
+                        VIEYRAPY
+                      </a>
+                    </div>
+                            <div class="uk-navbar-right">
+                              <ul class="uk-navbar-nav uk-visible@m">
+                                <li class=""><a href="/">Versión Basica</a></li>
+                                <li><a href="/#/agentesventaspy">Vendedores</a></li>
+                                <li class=""><a href="/#/caller">Llamar</a></li>
+                              </ul>
+                              <div class="uk-navbar-item uk-visible@m"><a href= "https://web.whatsapp.com/" class="uk-button uk-button-default tm-button-default uk-icon">Solicitá Ya<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="download"><polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline><rect x="3" y="17" width="13" height="1"></rect><line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line></svg></a>
+                              </div>
+                              <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon">
+                                  <rect y="9" width="20" height="2"></rect>
+                                  <rect y="3" width="20" height="2"></rect>
+                                  <rect y="15" width="20" height="2"></rect>
+                                </svg>
+                              </a>
+                            </div>
+                          </nav>
+                    </div>
+              </div>
 
+
+
+      <div id="offcanvas" uk-offcanvas="mode: push; overlay: true" class="uk-offcanvas uk-offcanvas-overlay uk-open" style="display: block;">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-push">
+          <div class="uk-panel">
+            <ul class="uk-nav uk-nav-default tm-nav">
+              <li class="uk-nav-header">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">General</font>
+                </font>
+              </li>
+              <li class=""><a href="/index">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Hogar</font>
+                </font></a></li>
+                <li class=""><a href="/pro">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Pro</font>
+                  </font></a></li>
+                  <li class=""><a href="/changelog">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Registro de cambios</font>
+                    </font></a></li>
+                    <li class=""><a href="/download">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Descargar</font>
+                      </font></a>
+                    </li>
+                  </ul>
+
+                  </div>
+              </div>
+          </div>
+
+  </div>
 
       <div class="uk-width-1-1">
         <div class="uk-container uk-text-center">
